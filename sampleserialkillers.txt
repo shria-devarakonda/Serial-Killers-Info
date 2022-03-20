@@ -1,0 +1,6 @@
+The below are what have been entered in the db for each of the serial killer. please follow the same structure
+jeffery dahmer =1,"Jeffrey Dahmer", 17, "trying to rip out a victims heart from his chest", "The Milwaukee Monster", 32
+ed kemper=2,"Ed Kemper", 10, "decapitating his mother's head and engaging in irrumatio with it", "The Co-ed Killer", 25
+ted bundy= 3,"Ted Bundy", 30,"being deceitfully charming and evading arrest many times", 'The Lady Killer', 29
+john wayne gacy = 4,"John Wayne Gacy", 33, "dressing like a clown and killing his victims", 'Pogo the Clown', 36
+richard ramirez= 5,"Richard Ramirez", 13, "being a satan worshipper and having a large female fan following after arrest", 'The Night Stalker', 25

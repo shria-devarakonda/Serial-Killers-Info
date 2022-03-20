@@ -33,6 +33,7 @@ def addtodb(id, name, victim_count, famous_for, moniker, age_at_arrest):
 
 
 def add_queries():
+    print("Before adding please look at sampleserialkillers.txt for an idea on the basic structure.")
     id = input("Please provide an id for the serial killer (in integers): ")
     name = input("Please provide the name: ")
     victim_count = input("Please provide the victim count (in integers): ")
