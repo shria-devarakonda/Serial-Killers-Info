@@ -38,7 +38,7 @@ def add_queries():
     victim_count = input("Please provide the victim count (in integers): ")
     famous_for = input("Please provide the details on the signature of the serial killer: ")
     moniker = input("Please provide the moniker of the serial killer: ")
-    age_at_arrest = input("Please provide the age of the serial killer at his arrest: ")
+    age_at_arrest = input("Please provide the age of the serial killer at his arrest (in integers): ")
     addtodb(id, name,victim_count,famous_for,moniker,age_at_arrest)
 
 add_queries()
