@@ -36,10 +36,8 @@ with con:
      data = con.execute("SELECT * FROM KILLERS")
      for row in data:
         sk.append(row)
-
-with con:
-    data = con.execute("SELECT name FROM KILLERS")
-    for row in data:
+     data = con.execute("SELECT name FROM KILLERS")
+     for row in data:
         sk_name.append(row)
 import re
 a = re.sub("]*\\[*\\(*\\)*'*", '', str(sk_name))
