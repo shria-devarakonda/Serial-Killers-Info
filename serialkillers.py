@@ -1,4 +1,4 @@
-
+#this is the main serial killer object creator
 
 class SerialKiller:
     def __init__(self, name, victims_count, mental_disability, legacy, moniker, agearrest):
