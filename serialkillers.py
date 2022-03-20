@@ -42,7 +42,7 @@ with con:
 import re
 a = re.sub("]*\\[*\\(*\\)*'*", '', str(sk_name))
 c = re.sub("(,)", '|', a)
-print(c+"|")
+print(c[:-1])
 name = input("Who would you like to learn about? Enter any of the names between the '||'s above. Partial name is "
              "fine too.\nFor instance, you can type jeff or dahm for Jeffrey Dahmer.\nIf there is not much "
              "above, please add some data with addserialkiller.py file!\n").lower()
