@@ -3,16 +3,12 @@ import sqlite3 as sl
 
 
 class SerialKiller:
-    def __init__(self, idnum, name, victims_count, legacy, moniker, agearrest):
+    def __init__(self, name, victims_count, legacy, moniker, agearrest):
         self.name = name
-        self.idnum = idnum
         self.victims_count = victims_count
         self.legacy = legacy
         self.moniker = moniker
         self.agearrest = agearrest
-
-    def id_num(self):
-        return "ID: {}.\n".format(self.idnum)
 
     def nameofsk(self):
         return "His name was {}.\n".format(self.name)
@@ -28,6 +24,8 @@ class SerialKiller:
       
     def arrestedage(self):
         return "He was arrested when he was {}.".format(self.agearrest)
+
+
 
 sk = []
 sk_name = []
@@ -47,8 +45,7 @@ name = input("Who would you like to learn about? Enter any of the names between 
              "fine too.\nFor instance, you can type jeff or dahm for Jeffrey Dahmer.\nIf there is not much "
              "above, please add some data with addserialkiller.py file!\n").lower()
 
-
 for row in sk:
     if str(name) in str(row).lower():
         name = SerialKiller(*list(row))
-        print(name.id_num(), name.nameofsk(), name.vicnum(), name.bestknown(), name.nickname(), name.arrestedage())
+        print(name.nameofsk(), name.vicnum(), name.bestknown(), name.nickname(), name.arrestedage())
